@@ -1,6 +1,6 @@
 === Tips & Donation for WooCommerce ===
 Contributors: dipakbbsr
-Donate link: http://aroundtheweb.in
+Donate link: https://www.paypal.me/dipakpusti
 Tags: donate, tips, woocommerce donation, order tips, tip
 Requires PHP: 5.6
 Requires at least: 4.0

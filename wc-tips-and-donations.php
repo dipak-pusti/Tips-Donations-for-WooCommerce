@@ -11,7 +11,7 @@
  * Description:       Allow your customers to give a Donation or a Tip for your awesome services to them.
  * Version:           0.0.1
  * Author:            Dipak Kumar Pusti
- * Author URI:        http://aroundtheweb.in
+ * Author URI:        https://profiles.wordpress.org/dipakbbsr/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       wc-tips
