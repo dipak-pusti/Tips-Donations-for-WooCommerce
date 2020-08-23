@@ -39,7 +39,7 @@
             $.ajax({
         		type	: "POST",
         		data	: data,
-        		url		: wfs_script.ajaxurl,
+        		url		: otd_vars.ajaxurl,
         		success	: function( response ) {
         			
         			// Trigger Cart Update

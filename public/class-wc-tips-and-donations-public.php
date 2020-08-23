@@ -73,7 +73,7 @@ class Wc_Tips_And_Donations_Public {
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/wc-tips-and-donations-public.js', array( 'jquery' ), $this->version, false );
 
 		$params = array(
-	      'ajaxurl'				=> WFS()->ajax_url(),
+	      'ajaxurl'				=> admin_url( 'admin-ajax.php' ),
 	      'cart_url'			=> wc_get_cart_url(),
 	      'checkout_url'		=> wc_get_checkout_url(),
 	      'add_tips_nonce'		=> wp_create_nonce( 'add-order-tips' ),

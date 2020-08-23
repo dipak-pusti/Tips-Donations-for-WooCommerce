@@ -25,6 +25,7 @@
     margin: 0;
     outline: 0;
     line-height: normal;
+    display: inline-block;
 }
 
 .woocommerce .tips_container .tips-error {
