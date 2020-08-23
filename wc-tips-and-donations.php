@@ -9,13 +9,17 @@
  * @wordpress-plugin
  * Plugin Name:       Tips & Donation for WooCommerce
  * Description:       Allow your customers to give a Donation or a Tip for your awesome services to them.
- * Version:           0.0.1
+ * Version:           0.0.2
  * Author:            Dipak Kumar Pusti
  * Author URI:        http://aroundtheweb.in
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       wc-tips
  * Domain Path:       /languages
+ *
+ * WC requires at least: 3.0
+ * WC tested up to: 4.4.1
+ *
  */
 
 // If this file is called directly, abort.
@@ -28,7 +32,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'WCTD_VERSION', '0.0.1' );
+define( 'WCTD_VERSION', '0.0.2' );
 
 /**
  * The core plugin class that is used to define internationalization,
