@@ -38,5 +38,5 @@ bug fixes and my own changes.
 
 == Upgrade Notice ==
 
-= 0.0.2 =
+= 0.0.3 =
 Plugin is updated with issue fixes. Please get it now.
