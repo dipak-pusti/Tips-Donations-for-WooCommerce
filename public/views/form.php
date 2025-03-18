@@ -1,3 +1,4 @@
+<tr><td>
 <div class="tips_container">
     <h2 class="tips_label"><?php echo apply_filters( 'order_tips_heading', get_option( '_otd_tips_heading', 'true' ) ); ?></h2>
     <div class="tips_fields">
@@ -11,3 +12,4 @@
         <span class="tips-error"></span>
     </div>
 </div>
+</td></tr>

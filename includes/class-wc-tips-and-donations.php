@@ -184,12 +184,14 @@ class Wc_Tips_And_Donations {
 					break;
 
 				case 'checkout_only':
-					$this->loader->add_action( 'woocommerce_before_checkout_form', $plugin_public, 'order_tips_form' );
+					///$this->loader->add_action( 'woocommerce_review_order_before_submit', $plugin_public, 'order_tips_form' );
+					$this->loader->add_action( 'woocommerce_review_order_before_order_total', $plugin_public, 'order_tips_form' );
 					break;
 				
 				default:
 					$this->loader->add_action( 'woocommerce_after_cart_table', $plugin_public, 'order_tips_form' );
-					$this->loader->add_action( 'woocommerce_before_checkout_form', $plugin_public, 'order_tips_form' );
+					///$this->loader->add_action( 'woocommerce_before_checkout_form', $plugin_public, 'order_tips_form' );
+					$this->loader->add_action( 'woocommerce_review_order_before_order_total', $plugin_public, 'order_tips_form' );
 					break;
 			}
 		}
