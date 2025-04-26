@@ -11,6 +11,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Allow your customers to give a Donation or a Tip on Checkout or Cart page for your awesome services to them. 
 
+== Elys Changes ==
+Bug fixes.     
+The tips form was double added on checkout.   
+
 == Description ==
 
 Do you feel something is left out from this plugin? Let me know your ideas or suggestion, I'll add them as soon as possible. Feel free to mail me at, [sipu.dipak@gmail.com](mailto:sipu.dipak@gmail.com)
@@ -22,6 +26,8 @@ Do you feel something is left out from this plugin? Let me know your ideas or su
 3. Follow the settings page to configure the plugin.
 
 == Changelog ==
+= 0.0.3 =
+bug fixes and my own changes.   
 
 = 0.0.2 =
 * WordPress Compatibility
@@ -32,5 +38,5 @@ Do you feel something is left out from this plugin? Let me know your ideas or su
 
 == Upgrade Notice ==
 
-= 0.0.2 =
+= 0.0.3 =
 Plugin is updated with issue fixes. Please get it now.
